@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But don't ignore these file types
+!*.html
+!*.css
+
+# Don't ignore folders (so Git checks inside them)
+!*/
