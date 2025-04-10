@@ -4,6 +4,12 @@
 # But don't ignore these file types
 !*.html
 !*.css
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
+!*.svg
+!*.webp
 
-# Don't ignore folders (so Git checks inside them)
+# Don't ignore folders
 !*/

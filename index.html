@@ -9,18 +9,24 @@
   <!-- Link to your CSS -->
   <link rel="stylesheet" href="main.css" />
 
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+
   <!-- Optional: Favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
 
   <header>
-    <h1>My Top 5 Tennis Players of All Time</h1>
-    <h3>Who needs rankings when you've got opinions?</h3>
+    <div class="headerTitle">
+        <h1>My Top Tennis Players of All Time</h1>
+        <h3>Who needs rankings when you've got opinions?</h3>
+    </div>
   </header>
 
   <main>
-    <div>
+    <div class="card-container">
+    <div class="player-card">
         <img src="images/RogerF.jpg" alt="Front picture of Roger Federer ">
         <h2>Roger Federer</h2>
         <ul>
@@ -31,7 +37,7 @@
         </ul>
     </div>
 
-    <div>
+    <div class="player-card">
         <img src="images/RafaelN.jpg" alt="Front image of Rafael Nadal">
         <h2>Rafael Nadal</h2>
         <ul>
@@ -42,7 +48,7 @@
         </ul>
     </div>
 
-    <div>
+    <div class="player-card">
         <img src="images/NaomiO.jpg" alt="Front image of Naomi Osaka">
         <h2>Naomi Osaka</h2>
         <ul>
@@ -53,18 +59,18 @@
         </ul>
     </div>
 
-    <div>
+    <div class="player-card">
         <img src="images/ElenaR.jpg" alt="Front image of Elena Rybakina">
-        <h2>Elena Rybakina</h2>
-        <ul>
-            <li>Grand Slams: 1</li>
-            <li>Age: 25</li>
-            <li>Country: Kazakhstan</li>
-            <li>Ranking: 10</li>
-        </ul>
+            <h2>Elena Rybakina</h2>
+            <ul>
+                <li>Grand Slams: 1</li>
+                <li>Age: 25</li>
+                <li>Country: Kazakhstan</li>
+                <li>Ranking: 10</li>
+            </ul>
     </div>
 
-    <div>
+    <div class="player-card">
         <img src="images/CarlosA.jpeg" alt="Front image of Carlos Alcaraz">
         <h2>Carlos Alcaraz</h2>
         <ul>
@@ -74,6 +80,21 @@
             <li>Ranking: 3</li>
         </ul>
     </div>
+
+
+    <div class="player-card">
+        <img src="images/JasmineP.jpg" alt="Front image of Carlos Alcaraz">
+        <h2>Jasmine Paolini</h2>
+        <ul>
+            <li>Grand Slams: 0</li>
+            <li>Age: 29</li>
+            <li>Country: Italy</li>
+            <li>Ranking: 6</li>
+        </ul>
+    </div>
+
+
+</div>
 
     
   </main>
